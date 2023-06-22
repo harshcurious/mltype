@@ -8,7 +8,7 @@ LONG_DESCRIPTION = DESCRIPTION
 INSTALL_REQUIRES = [
     "click",
     "click-config-file",
-    "numpy",
+    "numpy==1.23.1",
     "torch",
     "pytorch-lightning>=1.0.0,<1.2",
     "tqdm",
